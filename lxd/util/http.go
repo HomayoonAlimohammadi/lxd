@@ -226,7 +226,7 @@ func CheckMutualTLS(cert x509.Certificate, trustedCerts map[string]x509.Certific
 	// Check whether client certificate is in the map of trusted certs.
 	for fingerprint, v := range trustedCerts {
 		if bytes.Equal(cert.Raw, v.Raw) {
-			logger.Debug("Matched trusted cert", logger.Ctx{"fingerprint": fingerprint, "subject": v.Subject})
+			// logger.Debug("Matched trusted cert", logger.Ctx{"fingerprint": fingerprint, "subject": v.Subject})
 			return true, fingerprint
 		}
 	}
