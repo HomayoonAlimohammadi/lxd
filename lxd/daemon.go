@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	dqliteClient "github.com/canonical/go-dqlite/v2/client"
-	"github.com/canonical/go-dqlite/v2/driver"
+	dqliteClient "github.com/canonical/go-dqlite/v3/client"
+	"github.com/canonical/go-dqlite/v3/driver"
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 	liblxc "github.com/lxc/go-lxc"

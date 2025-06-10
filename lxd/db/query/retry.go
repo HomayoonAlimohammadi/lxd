@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/canonical/go-dqlite/v2/driver"
+	"github.com/canonical/go-dqlite/v3/driver"
 	"github.com/mattn/go-sqlite3"
 
 	"github.com/canonical/lxd/shared/api"
